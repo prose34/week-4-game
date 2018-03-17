@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/swirl_pattern.png");
+}
+
+.gameTitle {
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    margin-top: 10px;
+    padding: 20px;
+    font-family: Pacifico, 'Times New Roman', Times, serif;
+    border-radius: 30px;
+}
+
+h5 {
+    text-decoration: underline;
+}
+
+.instructions {
+    background-color: lightgoldenrodyellow;
+    font-size: 105%;
+    opacity: .85;
+    border-radius: 25px;
+}
+
+#randomNumber {
+    background-color: black;
+    opacity: 0.8;
+    font-family: Pacifico, 'Times New Roman', Times, serif;
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    /* height: 100%; */
+}
+
+.winsLosses {
+    background-color: black;
+    opacity: 0.8;
+    font-family: Pacifico, 'Times New Roman', Times, serif;
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.totalScoreHeading {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    font-family: Pacifico, 'Times New Roman', Times, serif;
+}
+
+.userGameScore {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+}
+
+#diamond,
+#emerald,
+#ruby,
+#shappire {
+    width: 100%;
+}
+
