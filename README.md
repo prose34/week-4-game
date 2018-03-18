@@ -2,6 +2,8 @@
 
 Welcome to the Crystal Game! Enjoy!
 
+https://prose34.github.io/week-4-game/
+
 ### Game Rules
 
 * You will be given a random number at the start of the game. 
