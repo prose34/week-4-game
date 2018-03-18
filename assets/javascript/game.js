@@ -113,6 +113,7 @@ $("#shappire").click(function () {
 
 
 //use random number and say click here to get started
-// call function when you need it. function assins random number to each image and doesn't reset
-// when game starts do the above. 
+
+// i'd like to have a function that you can put in each .click reference to automatically track
+// which object was clicked and add to the user score according to that. .data('clicked') may work
 // try tracking for clicked objects
