@@ -19,23 +19,24 @@
         </div>
         <br>
         <div class="row">
-            <div class="col-md-6 offset-md-3 text-center instructions">
+            <div class="col-md-12 instructions">
                 <br>
                 <h5>Game Instructions:</h5> 
                 <!-- Try adding javascript and button to show/hide instructions -->
-                <p>You will be given a random number at the start of the game.</p>
-                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-                <p>You win the game by matching your total score to the random number shown. You lose the game if your total score goes above the random number.</p>
-                <p>The value of each crystal is hidden from you until you click on it.</p>
-                <p>Each time the game restarts, the game will change the values of each crystal.</p>
+                <p>You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+                You win the game by matching your total score to the random number shown. You lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click on it. 
+                Each time the game restarts, the game will change the values of each crystal.</p>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-md-4 text-center">
-                <h2 id="randomNumber">Random Number</h2>
+                <h2 id="randomNumberHead">Random Number:
+                    <br>
+                    <span id="randomNumber">#</span>
+                </h2>
             </div>
-            <div class="col-md-2 text-center">
+            <div class="col-md-3 text-center">
                     <h4 class="winsLosses">
                     Wins: <span id="wins">0</span>
                     <br>
@@ -46,15 +47,15 @@
                 <h3 id="wins">0</h3>
                 <h3 id="losses">0</h3>
             </div> -->
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="row">
                     <div class="col-md-12">
-                        <h4 class="totalScoreHeading">Your total score is:</h4>
+                        <h4 class="totalScoreHeading text-center">Your Total Score Is:</h4>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <h6 class="userGameScore">0</h6>
+                        <h4 id="userGameScore" class="text-center">0</h4>
                     </div>
                 </div>
             </div>
