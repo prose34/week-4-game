@@ -2,7 +2,7 @@
 
 Welcome to the Crystal Game! Enjoy!
 
-###Game Rules
+### Game Rules
 
 * You will be given a random number at the start of the game. 
 * There are four crystals below. 
